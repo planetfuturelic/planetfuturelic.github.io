@@ -4,15 +4,6 @@ body {
 }
 
 .landing.hero.is-fullheight {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.75),
-      rgba(0, 0, 0, 0.75)
-  ),
-  url(../images/galaxy.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   min-height: 500px;
   height: calc(100vh - 500px);
 }
@@ -28,6 +19,30 @@ body {
 
 .link:hover {
   text-decoration: underline;
+}
+
+.galaxy-bg {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75)
+  ),
+  url(../images/galaxy.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hieroglyph-bg {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75)
+  ),
+  url(../images/ancient-hieroglyphs.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .feature-video {
