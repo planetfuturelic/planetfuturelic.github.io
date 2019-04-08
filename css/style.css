@@ -1,6 +1,21 @@
+@font-face{
+  font-family: '1942';
+  src: url('../fonts/1942-webfont.eot');
+  src: url('../fonts/1942-webfont.eot?iefix') format('eot'),
+  url('../fonts/1942-webfont.woff') format('woff'),
+  url('../fonts/1942-webfont.ttf') format('truetype');
+}
+
 body {
   background-color: #363636;
   color: #f5f5f5;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar-brand {
+  font-family: "1942","Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .landing.hero.is-fullheight {
